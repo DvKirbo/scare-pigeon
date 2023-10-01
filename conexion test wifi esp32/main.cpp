@@ -6,8 +6,8 @@ void setup() {
   pinMode(2, OUTPUT);
   Serial.begin(9600);
 }
- const String webName = "FAM CUETO-2.4GHZ";
- const String password = "cuetosalazar573";
+ const String webName = "your wifi";
+ const String password = "your password";
 
 WebServer server (80); 
 void loop() {
