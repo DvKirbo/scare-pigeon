@@ -16,9 +16,15 @@ Antes de todo nuestra placa debe tener conexion a internet. Para esto haremos us
 ### - HC-SC04
 ![enter image description here](https://www.makercreativo.com/store/wp-content/uploads/2017/06/Sensor_ultrasonico_HCSR04_1.jpg)
 
+### Conexion HC-SC04
+
+![](https://raw.githubusercontent.com/DvKirbo/scare-pigeon/main/thingspeak%20test/thingspeak-esp32-hcsr04_sensor--test/media/conexionSonico.jpeg)
+
 # - Sensor Pir Infrarojo
 ![enter image description here](https://mastertronicventas.com/wp-content/uploads/2020/10/SENSOR-PIR.png)
 
+### Conexion Pir Infrarojo
+![](https://raw.githubusercontent.com/DvKirbo/scare-pigeon/main/thingspeak%20test/thingspeak-esp32-hcsr04_sensor--test/media/conexionPir.jpeg)
 
 ### Visualizacion de la distancia en nuestro canal
 
