@@ -26,8 +26,12 @@ Antes de todo nuestra placa debe tener conexion a internet. Para esto haremos us
 ### Conexion Pir Infrarojo
 ![](https://raw.githubusercontent.com/DvKirbo/scare-pigeon/main/thingspeak%20test/thingspeak-esp32-hcsr04_sensor--test/media/conexionPir.jpeg)
 
-### Visualizacion de la distancia en nuestro canal
+### Visualizacion de la distancia en nuestro canal (Sensor Ultrasonico)
 
 ![enter image description here](https://raw.githubusercontent.com/DvKirbo/scare-pigeon/main/thingspeak%20test/thingspeak-esp32-hcsr04_sensor--test/media/canal.png)
 
+
+### Visualizacion del pir en nuestro canal (Sensor Infrarojo)
+
+![](https://raw.githubusercontent.com/DvKirbo/scare-pigeon/main/thingspeak%20test/thingspeak-esp32-hcsr04_sensor--test/media/vizcaCanal.jpeg)
 
