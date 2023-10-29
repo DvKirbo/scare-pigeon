@@ -1,7 +1,16 @@
-int trig1=4, trig2=22;
+#include <Arduino.h>
+int trig1=18, trig2=22;
 int echo1=15, echo2=23;
+int pinBuzzer=4;
+
 float duracion1 =0, distancia1 =0;
 float duracion2 =0, distancia2 =0;
+
+int frecuencia =2000, canal  =0 , resolucion =8;
+
+int sonido =200;
+
+
 void setup() {
   Serial.begin(115200);
   pinMode(trig1, OUTPUT);
@@ -9,6 +18,8 @@ void setup() {
   pinMode(echo1, INPUT);
   pinMode(echo2, INPUT);
   pinMode(2, OUTPUT);
+  ledcSetup(canal,frecuencia,resolucion);
+  ledcAttachPin(pinBuzzer, 0);
 }
 
 bool det1 = false;
@@ -55,9 +66,11 @@ void loop() {
  */
   if (distancia1 >=1 && distancia1 <=20 || (distancia2 >=1 && distancia2 <=20)){
     digitalWrite(2, HIGH);
+    ledcWriteTone(0,sonido);
   }
   else{
     digitalWrite(2, LOW);
+    ledcWriteTone(0,0);
   }
   delay(100);
 }
